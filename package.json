@@ -1,0 +1,47 @@
+{
+  "name": "upload-dsyms-github-action",
+  "version": "0.1.0",
+  "description": "Upload dSYM files to Datadog to symbolicate your crash reports.",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write '**/*.ts'",
+    "format-check": "prettier --check '**/*.ts'",
+    "lint": "eslint --config eslint.config.mjs src/**/*.ts",
+    "package": "ncc build --source-map --license licenses.txt",
+    "test": "jest",
+    "all": "yarn build && yarn format && yarn lint && yarn package && yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/upload-dsyms-github-action.git"
+  },
+  "keywords": [
+    "actions",
+    "datadog",
+    "rum",
+    "ios",
+    "dsyms"
+  ],
+  "author": "step-security",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "2.0.3",
+    "@datadog/datadog-ci-base": "5.9.0",
+    "axios": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/jest": "30.0.0",
+    "@types/node": "25.4.0",
+    "@vercel/ncc": "^0.38.4",
+    "eslint": "9.39.4",
+    "eslint-plugin-github": "^6.0.0",
+    "eslint-plugin-jest": "^29.15.0",
+    "globals": "^17.4.0",
+    "jest": "30.2.0",
+    "prettier": "3.8.1",
+    "ts-jest": "29.4.6",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.57.0"
+  }
+}
