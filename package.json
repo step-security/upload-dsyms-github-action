@@ -28,7 +28,7 @@
   "dependencies": {
     "@actions/core": "2.0.3",
     "@datadog/datadog-ci-base": "5.9.0",
-    "axios": "^1.16.0"
+    "axios": "^1.18.1"
   },
   "devDependencies": {
     "@types/jest": "30.0.0",
