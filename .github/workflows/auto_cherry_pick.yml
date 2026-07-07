@@ -23,7 +23,7 @@ on:
       script:
         description: "Script to build the action"
         required: false
-        default: "yarn all"
+        default: "yarn package"
       package_manager:
         description: "Package manager to use"
         required: false
@@ -48,5 +48,5 @@ jobs:
       base_branch: ${{ inputs.base_branch || 'main' }}
       mode: ${{ github.event_name == 'pull_request' && 'verify' || inputs.mode || 'cherry-pick' }}
       node_version: ${{ inputs.node_version || '24' }}
-      script: ${{ inputs.script || 'yarn all' }}
+      script: ${{ inputs.script || 'yarn package' }}
       package_manager: ${{ inputs.package_manager || 'yarn' }}
