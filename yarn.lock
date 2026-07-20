@@ -306,10 +306,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@datadog/datadog-ci-base@5.19.0":
-  version "5.19.0"
-  resolved "https://registry.yarnpkg.com/@datadog/datadog-ci-base/-/datadog-ci-base-5.19.0.tgz#59d9fbef9e54164e851a06e2326735404266d1dc"
-  integrity sha512-0l7kvC5IcA2X3ZQb+hQbZpzOV3VLRZfqJNcTpVM66JGUHsQ5hTky0rK/G29peyt1ylg3RVewxKB5520RBndX+g==
+"@datadog/datadog-ci-base@5.21.2":
+  version "5.21.2"
+  resolved "https://registry.yarnpkg.com/@datadog/datadog-ci-base/-/datadog-ci-base-5.21.2.tgz#54455539aa25cf06616ce9d21304bcd1b3e341e9"
+  integrity sha512-o3SD3EgPoQihOKJgPr9k4QD6pGBRQWPCYi7QpwFjk7G2QLBaNv8rt55NDybLSw4BJT2HvEkpiU4fhaXt7uAIEA==
   dependencies:
     "@antfu/install-pkg" "^1.1.0"
     "@types/datadog-metrics" "^0.6.1"
@@ -320,12 +320,12 @@
     debug "^4.4.1"
     deep-extend "^0.6.0"
     fast-xml-parser "^5.7.2"
-    form-data "^4.0.4"
+    form-data "^4.0.6"
     glob "^13.0.6"
     inquirer "^8.2.7"
     is-docker "^4.0.0"
     jest-diff "^30.2.0"
-    js-yaml "^4.1.1"
+    js-yaml "^4.2.0"
     jszip "^3.10.1"
     proxy-agent "^6.4.0"
     semver "^7.6.3"
@@ -333,7 +333,7 @@
     terminal-link "^2.1.1"
     tiny-async-pool "^2.1.0"
     typanion "^3.14.0"
-    undici "^7.24.6"
+    undici "^7.28.0"
     upath "^2.0.1"
 
 "@emnapi/core@1.10.0":
@@ -2620,7 +2620,7 @@ foreground-child@^3.1.0:
     cross-spawn "^7.0.6"
     signal-exit "^4.0.1"
 
-form-data@^4.0.4, form-data@^4.0.5:
+form-data@^4.0.5, form-data@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.6.tgz#28e864e1b786dbebb68db1f452f9635278665827"
   integrity sha512-vKatAh4SlVfgbv+YtmhiRjhEMJsYpsG1Y2rMQtR+SVSbytsSD1YGzDIcrAJmdFec88u/+VoGmxnl+80gL1tRCQ==
@@ -3723,7 +3723,7 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-js-yaml@^4.1.1:
+js-yaml@^4.1.1, js-yaml@^4.2.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.3.0.tgz#d1900572a7f7cf0b5f540c83673e60bad3436592"
   integrity sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==
@@ -5166,7 +5166,7 @@ undici@^6.23.0:
   resolved "https://registry.yarnpkg.com/undici/-/undici-6.27.0.tgz#41f9e48f7c5a40d27376caaead8c9a9fc7bca9c4"
   integrity sha512-YmfV3YnEDzXRC5lZ2jWtWWHKGUm1zIt8AhesR1tens+HTNv+YZlN/dp6G727LOvMJ8xjP9Be7Y2Sdr96LDm+pg==
 
-undici@^7.24.6:
+undici@^7.28.0:
   version "7.28.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-7.28.0.tgz#97d64564198b285bc281f0e8e29597e3d11fe7ec"
   integrity sha512-cRZYrTDwWznlnRiPjggAGxZXanty6M8RV1ff8Wm4LWXBp7/IG8v5DnOm74DtUBp9OONpK75YlPnIjQqX0dBDtA==
